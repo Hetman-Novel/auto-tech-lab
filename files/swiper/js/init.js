@@ -25,6 +25,13 @@ if (insideWorkshopSlider) {
       slidesPerView: '1',
       loop: true,
       spaceBetween: 25,
+      preloadImages: false,
+      lazy: {
+         loadOnTransitionStart: false,
+         loadPrewNext: false,
+      },
+      watchSlidesProgress: true,
+      watchSlidesVisibility: true,
       breakpoints: {
          0: {
             slidesPerView: '1',
